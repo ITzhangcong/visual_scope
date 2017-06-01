@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: visualscope_Dlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/visualscope_Dlg.res" /d "NDEBUG" /d "_AFXDLL" "F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_Dlg.rc"" 
+Creating temporary file "Z:\TEMP\RSP8402.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/visualscope_Dlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\MyButtun.cpp"
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\SerialPort.cpp"
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_Dlg.cpp"
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp"
+]
+Creating command line "cl.exe @Z:\TEMP\RSP8402.tmp" 
+Creating temporary file "Z:\TEMP\RSP8403.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/visualscope_Dlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @Z:\TEMP\RSP8403.tmp" 
+Creating temporary file "Z:\TEMP\RSP8404.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/visualscope_Dlg.pdb" /machine:I386 /out:"Release/visualscope_Dlg.exe" 
+".\Release\MyButtun.obj"
+".\Release\SerialPort.obj"
+".\Release\StdAfx.obj"
+".\Release\visualscope_Dlg.obj"
+".\Release\visualscope_DlgDlg.obj"
+".\Release\visualscope_Dlg.res"
+]
+Creating command line "link.exe @Z:\TEMP\RSP8404.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyButtun.cpp
+SerialPort.cpp
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\SerialPort.cpp(916) : warning C4018: '<' : signed/unsigned mismatch
+visualscope_Dlg.cpp
+visualscope_DlgDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/visualscope_Dlg.bsc"  ".\Release\StdAfx.sbr" ".\Release\MyButtun.sbr" ".\Release\SerialPort.sbr" ".\Release\visualscope_Dlg.sbr" ".\Release\visualscope_DlgDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+visualscope_Dlg.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
